@@ -91,9 +91,6 @@ To start the curriculum build process, execute the following command:
 ```bash
 cd ./curriculum && pnpm run build
 ```
-# Command Documentation
-
-This document provides detailed information about the available commands in the project and how to use them effectively. Clear documentation for these commands is essential for enabling contributors to understand their functionalities and contribute more effectively.
 
 ## Command: `build:server`
 
