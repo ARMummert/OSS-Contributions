@@ -26,7 +26,7 @@ _It is recommended that you deploy your own instance instead of using the defaul
 2. Select Workers & Pages > Create Application
 2. Select Create Worker > Deploy
 
-# Cloudflare Worker Prerequisites
+## Cloudflare Worker Prerequisites
 `install npm`
 `install Node.js`
 
