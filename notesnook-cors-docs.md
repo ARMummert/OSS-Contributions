@@ -18,6 +18,12 @@ Cloudflare is a serverless application that allows us to deploy instantly.
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/streetwriters/cors)
 
+
+_It is recommended that you deploy your own instance instead of using the default one. This is also better for your privacy. It takes just 5 minutes to deploy._
+
+## How To Create A Cloudflare Worker
+1. Create Cloudflare Account 
+
 ## Usage:
 
 ```
