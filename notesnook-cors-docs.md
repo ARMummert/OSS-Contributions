@@ -1,3 +1,5 @@
+_Note: I completed this issue for Oregon State University as part of CS 464. I did not submit a pull request for this as I did not get great specifications for what they were looking for in the repo.  I feel that this would qualify to solve their issue on cors proxy documentation._
+
 ## **Cloudflare Cors Proxy Documentation**
 Project: Notesnook - https://github.com/streetwriters/notesnook
 
