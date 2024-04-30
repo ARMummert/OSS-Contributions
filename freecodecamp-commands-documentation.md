@@ -16,7 +16,8 @@ To execute the `audit-challenges` command, follow these steps:
 
 ```bash
 npm run audit-challenges
-````
+
+```
 
 ## Command: `analyze-bundle`
 
@@ -49,7 +50,8 @@ To initiate the build process, execute the following command:
 
 ```bash
 npm run build
-````
+
+```
 
 ## Command: `build workers`
 
@@ -61,7 +63,7 @@ To initiate the build process for workers, execute the following command:
 
 ```bash
 cd ./client && pnpm run prebuild
-``````
+```
 
 ## Command: `build:client`
 
@@ -73,7 +75,7 @@ To start the client build process, execute the following command:
 
 ```bash
 cd ./client && pnpm run build
-````
+```
 
 ## Command: `build:curriculum`
 
@@ -85,7 +87,7 @@ To start the curriculum build process, execute the following command:
 
 ```bash
 cd ./curriculum && pnpm run build
-``````
+```
 # Command Documentation
 
 This document provides detailed information about the available commands in the project and how to use them effectively. Clear documentation for these commands is essential for enabling contributors to understand their functionalities and contribute more effectively.
@@ -100,7 +102,7 @@ To start the server build process, execute the following command:
 
 ```bash
 cd /api-server && pnpm run build
-````
+```
 # Command Documentation
 
 This document provides detailed information about the available commands in the project and how to use them effectively. Clear documentation for these commands is essential for enabling contributors to understand their functionalities and contribute more effectively.
@@ -116,4 +118,30 @@ To utilize the `challenge-editor` command, execute the following command:
 ```bash
 npm-run-all -p challenge-editor:*
 
-##Comand: `challenge-editor: server`    
+```
+
+## Command: `challenge-editor: server`    
+
+The `challenge-editor:server` is used to interact with the challenge editor server component of this project.  
+
+**Usage:**
+
+To utilize the `challenge-editor:server` command, execute the following command:
+
+`cd ./tools/challenge-editor/api`
+
+```bash
+pnpm start
+```
+## Command: `challenge-editor: client`
+
+The `challenge-editor: client` is used to interact with the challenge editor client component of this project.
+
+**Usage:**
+
+`cd ./tools/challenge-editor/client`
+
+```bash
+pnpm start
+```
+
