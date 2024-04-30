@@ -18,8 +18,12 @@ Cloudflare is a serverless application that allows us to deploy instantly.
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/streetwriters/cors)
 
-## Usage
+## Usage:
+
+```
 <proxy-url>/<resource-url>
+
+```
 
 ## Examples
 https://cors-proxy.url/https://api.github.com/repos/streetwriters/notesnook/releases/tags/v2.2.4
