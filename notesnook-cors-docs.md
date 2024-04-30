@@ -26,7 +26,11 @@ Cloudflare is a serverless application that allows us to deploy instantly.
 ```
 
 ## Examples
+
+```
 https://cors-proxy.url/https://api.github.com/repos/streetwriters/notesnook/releases/tags/v2.2.4
+
+```
 
 ## Legal
 Copyright (c) 2022 Streetwriters (Private) Limited.
