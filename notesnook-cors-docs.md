@@ -12,4 +12,6 @@ Cors stands for Cross-Origin Resource Sharing. "Cross-Origin Resource Sharing (C
 Cors proxy allows users to bypass these errors and get the data we need.
 
 ## Cloudflare Workers
-Cloudflare is a serverless application that allows us to deploy instantly and 
+Cloudflare is a serverless application that allows us to deploy instantly. 
+
+"Cloudflare Workers are a platform for enabling serverless functions to run as close as possible to the end user" - https://www.cloudflare.com/learning/serverless/what-is-serverless/          
