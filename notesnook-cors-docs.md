@@ -28,6 +28,7 @@ _It is recommended that you deploy your own instance instead of using the defaul
 
 ## Cloudflare Worker Prerequisites
 `install npm`
+
 `install Node.js`
 
 ## Usage:
