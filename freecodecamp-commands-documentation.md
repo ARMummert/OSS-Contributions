@@ -1,3 +1,5 @@
+_FreeCodeCamp Issue - Build Documentation for Commands within the FreeCodeCamp project.  I completed this issue as part of Oregon State
+University for CS 464.  This issue was closed when I completed this documentation so there was no pull request._
 # Command Documentation
 
 This document provides detailed information about the available commands in the project and how to use them effectively. Clear documentation for these commands is essential for enabling contributors to understand their functionalities and contribute more effectively.
