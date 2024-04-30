@@ -153,4 +153,22 @@ This document provides detailed information about the available commands in the 
 
 ## Command: `clean`
 
+The `clean` command cleans the cache of a specified component.  
+
+**Usage:**
+
+```bash
+npm-run-all -p clean:client clean:server clean:curriculum --serial clean:packages
+```
+
+## Command: `clean-and-develop`
+
+The `clean-and-develop` command cleans the cache and then runs the development server
+
+**Usage:**
+
+```bash
+pnpm run clean && pnpm install && pnpm run develop
+```
+
 
