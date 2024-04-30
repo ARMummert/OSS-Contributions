@@ -17,3 +17,14 @@ Cloudflare is a serverless application that allows us to deploy instantly.
 "Cloudflare Workers are a platform for enabling serverless functions to run as close as possible to the end user" - https://www.cloudflare.com/learning/serverless/what-is-serverless/          
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/streetwriters/cors)
+
+## Usage
+<proxy-url>/<resource-url>
+
+## Examples
+https://cors-proxy.url/https://api.github.com/repos/streetwriters/notesnook/releases/tags/v2.2.4
+
+## Legal
+Copyright (c) 2022 Streetwriters (Private) Limited.
+
+Licensed under GNU General Public License version 3.
