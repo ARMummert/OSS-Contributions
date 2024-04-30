@@ -171,4 +171,60 @@ The `clean-and-develop` command cleans the cache and then runs the development s
 pnpm run clean && pnpm install && pnpm run develop
 ```
 
+## Command: `clean:api`
 
+The `clean:api` command cleans the api cache
+
+**Usage:**
+
+`cd ./api`
+
+```bash
+pmpn clean
+```
+
+## Command `clean:client`
+
+The `clean:client` command cleans the client cache
+
+**Usage:**
+
+`cd ./client`
+
+```bash
+pmpn run clean
+```
+
+## Command `clean:curriculum`
+
+The `clean:curriculum` command cleans the curriculum cache
+
+**Usage:**
+
+```bash
+rm -rf ./config/curriculum/json
+```
+
+## Command `clean:packages`
+
+The `clean:packages` command cleans the packages cache
+
+**Usage:**
+
+```bash
+rm -rf ./node_modules ./**/node_modules
+```
+
+## Command `clean:server`
+
+The `clean:server` command cleans the server cache
+
+**Usage:**
+
+```bash
+rm -rf ./api-server/lib
+```
+
+# Command Documentation
+
+This document provides detailed information about the available commands in the project and how to use them effectively. Clear documentation for these commands is essential for enabling contributors to understand their functionalities and contribute more effectively.
