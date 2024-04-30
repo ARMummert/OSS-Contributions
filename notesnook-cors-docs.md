@@ -23,6 +23,12 @@ _It is recommended that you deploy your own instance instead of using the defaul
 
 ## How To Create A Cloudflare Worker
 1. Create Cloudflare Account 
+2. Select Workers & Pages > Create Application
+2. Select Create Worker > Deploy
+
+# Prerequisites
+install npm
+install Node.js
 
 ## Usage:
 
