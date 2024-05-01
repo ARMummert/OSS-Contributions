@@ -1,5 +1,5 @@
 _FreeCodeCamp Issue - Build Documentation for Commands within the FreeCodeCamp project.  I completed this issue as part of Oregon State
-University for CS 464.  This issue was closed when I completed this documentation so there was no pull request. My contribution
+University for CS 464.  This issue was closed while I completed this documentation so there was no pull request. My contribution
 starts at `challenge-editor:server`_
 # Command Documentation
 
