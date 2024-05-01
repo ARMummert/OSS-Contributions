@@ -222,6 +222,72 @@ The `clean:server` command cleans the server cache
 rm -rf ./api-server/lib
 ```
 
+#  Command Documentation
+
+This document provides detailed information about the available commands in the project and how to use them effectively. Clear documentation for these commands is essential for enabling contributors to understand their functionalities and contribute more effectively.
+
+## Command `create:config`
+
+The `create:config` command creates a config file
+
+**Usage:**
+
+```bash
+tsc -p config && pnpm run ensure-env && pnpm run download-trending
+```
+
+## Command `create:utils`
+
+The `create:utils` command creates command line utilities
+
+**Usage:**
+
+```bash
+tsc -p utils
+```
+
 # Command Documentation
 
 This document provides detailed information about the available commands in the project and how to use them effectively. Clear documentation for these commands is essential for enabling contributors to understand their functionalities and contribute more effectively.
+
+## Command `precypress`
+
+The `precypress` command pre-installs cypress front end testing environment
+
+**Usage:**
+
+```bash
+node ./cypress-install.js
+```
+
+## Command `cypress:dev:run`
+
+The `cypress:dev:run` command runs cypress testing environment in dev mode
+
+**Usage:**
+
+```bash
+pnpm run cypress run
+```
+
+
+## Command `cypress:dev:watch`
+
+The `cypress:dev:watch` command opens cypress testing environment in watch mode
+
+**Usage:**
+
+```bash
+pnpm run cypress open
+```
+
+
+## Command `cypress:install-build-tools`
+
+The `cypress:install-dev-tools` command installs cypress testing environment developer tools
+
+**Usage:**
+
+```bash
+sh 
+```
