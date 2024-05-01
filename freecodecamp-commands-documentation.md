@@ -289,5 +289,5 @@ The `cypress:install-dev-tools` command installs cypress testing environment dev
 **Usage:**
 
 ```bash
-sh 
+sh ./cypress-install.sh
 ```
