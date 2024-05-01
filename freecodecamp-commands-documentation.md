@@ -291,3 +291,200 @@ The `cypress:install-dev-tools` command installs cypress testing environment dev
 ```bash
 sh ./cypress-install.sh
 ```
+
+# Command Documentation
+
+This document provides detailed information about the available commands in the project and how to use them effectively. Clear documentation for these commands is essential for enabling contributors to understand their functionalities and contribute more effectively.
+
+## Command `predevelop`
+
+The `predevelop` command creates a build:cirruculum environment
+
+**Usage:**
+
+```bash
+npm run all -p create:* -s build:cirruculum
+```
+
+## Command `develop`
+
+The `develop` command runs developer mode
+
+**Usage:**
+
+```bash
+npm run all -p develop:** 
+```
+
+## Command `develop:client`
+
+The `develop:client` command runs the client in developer mode
+
+**Usage:**
+
+```bash
+cd ./client && pnpm run develop
+```
+
+## Command `develop:server`
+
+The `develop:server` command runs the server in developer mode
+
+**Usage:**
+
+```bash
+cd ./api-server && pnpm run develop
+```
+
+## Command `docs:server`
+
+The `docs:server` servers the documents via docsify
+
+**Usage:**
+
+```bash
+docisfy serve ./docs -o --port 3400
+```
+
+# Command Documentation
+
+This document provides detailed information about the available commands in the project and how to use them effectively. Clear documentation for these commands is essential for enabling contributors to understand their functionalities and contribute more effectively.
+
+## Command `e2e`
+
+The `e2e` command runs end to end testing on the project
+
+**Usage:**
+
+```bash
+pnpm run  e2e:dev:run
+```
+
+## Command `e2e:dev:run`
+
+The `e2e:dev:run` command starts tests in developer mode running `cypress:dev:run`
+
+**Usage:**
+
+```bash
+start-test develop 'localhost:3000/status/ping|localhost:8000' cypress:dev:run
+```
+
+## Command `e2e:dev:watch`
+
+The `e2e:dev:watch` command starts tests in developer mode running `cypress:dev:watch`
+
+**Usage:**
+
+```bash
+start-test develop 'localhost:3000/status/ping|localhost:8000' cypress:dev:watch
+```
+
+## Command `e2e:prd:run`
+
+The `e2e:prd:run` command starts tests in production mode running `cypress:dev:run`
+
+**Usage:**
+
+```bash
+pnpm run build && start-test 'localhost:3000/status/ping|localhost:8000' cypress:dev:run
+```
+
+## Command `e2e:prd:watch`
+
+The `e2e:prd:run` command starts tests in production mode running `cypress:dev:watch`
+
+**Usage:**
+
+```bash
+pnpm run build && start-test 'localhost:3000/status/ping|localhost:8000' cypress:dev:watch
+```
+
+# Command Documentation
+
+This document provides detailed information about the available commands in the project and how to use them effectively. Clear documentation for these commands is essential for enabling contributors to understand their functionalities and contribute more effectively.
+
+## Command `download-trending`
+
+The `download-trending` command writes trending downloads to a file
+
+**Usage:**
+
+```bash
+ts-node ./tools/scripts/build/download-trending.ts
+```
+
+## Command `ensure-env`
+
+The `ensure-env` command ensures that the required env variables are set
+
+**Usage:**
+
+```bash
+cross-env DEBUG=fcc:* ts-node ./tools/scripts/build/ensure-env.ts
+```
+
+# Command Documentation
+
+This document provides detailed information about the available commands in the project and how to use them effectively. Clear documentation for these commands is essential for enabling contributors to understand their functionalities and contribute more effectively.
+
+## Command `format`
+
+The `format` command formats both the eslinter and uses prettier as a code formatter 
+
+**Usage:**
+
+```bash
+run -s format:eslint format:prettier
+```
+
+## Command `format:curriculum`
+
+The `format:cirriculum` formats the cirriculum with both the eslinter and uses prettier as a code formatter 
+
+**Usage:**
+
+```bash
+run -s format:curriculum:eslint format:curriculum:prettier
+```
+
+## Command `format:curriculum:eslint`
+
+The `format:cirriculum:eslint` formats the cirriculum the eslinter and fixes linting errors
+
+**Usage:**
+
+```bash
+eslint ./curriculum --fix
+```
+
+## Command `format:curriculum:prettier`
+
+The `format:cirriculum:prettier` formats the cirriculum prettier and writes prettier code
+
+**Usage:**
+
+```bash
+prettier --write ./curriculum
+```
+
+## Command `format:eslint`
+
+The `format:eslint` formats with the eslinter removing linting errors 
+
+**Usage:**
+
+```bash
+eslint --fix
+```
+
+## Command `format:prettier`
+
+The `format:prettier` formats with prettier and writes prettier code
+
+**Usage:**
+
+```bash
+prettier --write
+```
+
