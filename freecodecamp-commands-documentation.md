@@ -488,3 +488,12 @@ The `format:prettier` formats with prettier and writes prettier code
 prettier --write
 ```
 
+## Command `knip`
+
+The `knip` finds unused files
+
+**Usage:**
+
+```bash
+pnpm d1x knip@1 --include files
+```
